@@ -32,28 +32,45 @@ Haversine distance calculation for geospatial filtering
 Predicts road clusters and calculates the RQI for a given geographic range.
 
 Request Body (JSON):
+
+
 json
+
 Copy
+
 Edit
+
 {
   "start_lat": 31.43496067,
   "start_lon": 31.67756983,
   "end_lat": 31.45252233,
   "end_lon": 31.68269767
 }
+
 Response:
+
 json
+
 Copy
+
 Edit
+
 {
+ 
   "predictions": [
+  
     {"Latitude": 31.45, "Longitude": 31.67, "Predicted Cluster": 0},
+    
     {"Latitude": 31.46, "Longitude": 31.68, "Predicted Cluster": 2},
+    
     ...
   ],
+  
   "RQI": 0.812,
+  
   "RQI_Quality": "Good"
 }
+
 🏗️ How to Run the API Locally
 1️⃣ Install dependencies:
 
