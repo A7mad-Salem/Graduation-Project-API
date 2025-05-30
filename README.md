@@ -76,13 +76,21 @@ graphql
 Copy
 Edit
 ├── app.py              # FastAPI app with endpoints
+
 ├── utils.py            # Model loading and preprocessing utilities
+
 ├── DSC-BiLSTM_model.pth  # Trained model weights
+
 ├── train_raw_tensor.pt  # Raw input tensor
+
 ├── train_fft_tensor.pt  # FFT input tensor
+
 ├── y_train.csv          # Labels with Latitude, Longitude, Cluster
+
 ├── requirements.txt     # Python dependencies
+
 └── README.md            # This file
+
 📖 RQI Calculation Method
 The RQI is computed as:
 
